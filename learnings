@@ -1,0 +1,6 @@
+the best way to have 2 buttons is that 
+i could bacically first go into my html document and take them in the
+ div and give that particular div an id , after this when i go into my css document then i can take it go to the no. 
+of line =(line 24 in pink.css ) after this to give them a 
+little breathing space i would do it like =(line 30 in pink.css)this says that
+ if there is any div then give it the following commands that you ENTER.
