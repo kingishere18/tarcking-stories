@@ -20,3 +20,6 @@ function removing() {
  var dataRemove = document.getElementById('booksRead').remove();  
 }
 
+document.getElementById('text-1').style .fontSize="90px";
+document.getElementById('text-1').style .fontFamily="Stencil";
+
