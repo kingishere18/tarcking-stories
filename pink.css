@@ -5,6 +5,7 @@
 .first-text{
   text-align: center;
   -webkit-text-stroke: 2px wheat;
+  text-shadow:6px 6px 3px black;
 }
 
 
@@ -18,7 +19,7 @@
   -webkit-text-stroke: 2px sandybrown;
 }
 
-.buttons-both{
+.buttons-both {
   display: flex;
   border: 17px solid black;
   padding: 19px;
@@ -63,9 +64,37 @@
 
 
 #textWork {
+  text-shadow:6px 6px 3px black ;
   font-size: 100px ;
   font-family: 'Courier New', Courier, monospace;
   font-weight: 1000;
   -webkit-text-stroke: 2px  wheat;
   
+}
+
+.for-buttons-both {
+  display: flex;
+  border: 17px solid black;
+  padding: 19px;
+  justify-content: space-around;
+  width: 96%;
+  margin: 0 auto;
+}
+
+.for-buttons-both div {
+  border: 10px solid wheat;
+  padding: 10px;
+}
+
+#another-result {
+  display: flex;
+  flex-wrap: wrap;
+ border: 7px solid DarkGoldenRod;
+ margin: 13px;
+ justify-content: space-around;
+}
+
+#another-result img {
+  margin: 25px;
+  box-shadow: 15px 15px 15px 10px black;
 }

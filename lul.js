@@ -24,7 +24,23 @@ document.getElementById('booksRead').style .fontFamily="jokerman";
 
 //challenge 2 !!!
 
+function generatingSkull() {
+   var creatingImg = document.createElement('img');
+   var div = document.getElementById('another-result');
+   creatingImg.src="https://media.giphy.com/media/jpbAaUG7cjkZy/giphy.gif";
+   div.appendChild(creatingImg);
+}
 
-// document.getElementById('textWork').style .fontSize="100px";
-// document.getElementById('textWork').style .fontFamily="Stencil";
+function generateIcecream() {
+    var creatingGif = document.createElement('img');
+    var diving = document.getElementById('another-result');
+    creatingGif.src="https://media.giphy.com/media/3o6gEfc9gye4x6gg00/giphy.gif";
+    diving.appendChild(creatingGif);
+    }
 
+    function generatingDog() {
+   var creatingGiphy = document.createElement('img');
+   var divvy = document.getElementById('another-result');
+   creatingGiphy.src="https://media.giphy.com/media/eeLD68y0yAzl12KUDH/giphy.gif";
+   divvy.appendChild(creatingGiphy);
+    }
