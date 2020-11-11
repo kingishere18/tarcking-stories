@@ -30,8 +30,8 @@
   border: 10px solid wheat;
   
 }
-
-.text-2 {
+/* bit of challenge 2  */
+.text-2, #textIndication {
   color: aliceblue;
   -webkit-text-stroke: 2px black;
   text-align: center;
@@ -57,10 +57,15 @@
   width: 97%;
   margin: 0 auto;
   border: 20px solid black;
-  /* text-align: center; */
+  text-align: center;
   /* -webkit-text-stroke: 2px wheat; */
 }
 
-#textIndication {
-  text-align: center ;
-}      
+
+#textWork {
+  font-size: 100px ;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 1000;
+  -webkit-text-stroke: 2px  wheat;
+  
+}

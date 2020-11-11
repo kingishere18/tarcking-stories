@@ -25,6 +25,6 @@ document.getElementById('booksRead').style .fontFamily="jokerman";
 //challenge 2 !!!
 
 
-document.getElementById('textWork').style .fontSize="100px";
-document.getElementById('textWork').style .fontFamily="Stencil";
+// document.getElementById('textWork').style .fontSize="100px";
+// document.getElementById('textWork').style .fontFamily="Stencil";
 
