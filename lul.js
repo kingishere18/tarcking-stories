@@ -20,6 +20,11 @@ function removing() {
  var dataRemove = document.getElementById('booksRead').remove();  
 }
 
-// document.getElementById('text-1').style .fontSize="90px";
-// document.getElementById('text-1').style .fontFamily="Stencil";
+document.getElementById('booksRead').style .fontFamily="jokerman";
+
+//challenge 2 !!!
+
+
+document.getElementById('textWork').style .fontSize="100px";
+document.getElementById('textWork').style .fontFamily="Stencil";
 
