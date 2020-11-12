@@ -20,7 +20,7 @@ function removing() {
  var dataRemove = document.getElementById('booksRead').remove();  
 }
 
-document.getElementById('booksRead').style .fontFamily="jokerman";
+// document.getElementById('booksRead').style .fontFamily="jokerman";
 
 //challenge 2 !!!
 
@@ -47,4 +47,14 @@ function generateIcecream() {
 
     //challenge 3
 
-    
+ switch (56) {
+     case 78:
+       var   text = 'have a good dat  \n good night';
+         break;
+       case  56:
+         text = 'ka \n na ';
+     default:
+          text = 'nananana';
+         break;
+ }
+ console.log(text);
