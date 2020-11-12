@@ -44,3 +44,7 @@ function generateIcecream() {
    creatingGiphy.src="https://media.giphy.com/media/eeLD68y0yAzl12KUDH/giphy.gif";
    divvy.appendChild(creatingGiphy);
     }
+
+    //challenge 3
+
+    
