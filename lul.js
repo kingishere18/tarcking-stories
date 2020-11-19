@@ -43,18 +43,27 @@ function generateIcecream() {
    var divvy = document.getElementById('another-result');
    creatingGiphy.src="https://media.giphy.com/media/eeLD68y0yAzl12KUDH/giphy.gif";
    divvy.appendChild(creatingGiphy);
+   id="doggyis";
     }
 
     //challenge 3
 
- switch (56) {
+ switch (78) {
      case 78:
        var   text = 'have a good dat  \n good night';
          break;
        case  56:
-         text = 'ka \n na ';
+         text = 'ka  na ';
+         break;
      default:
           text = 'nananana';
          break;
  }
  console.log(text);
+
+//  challenge:3
+
+document.getElementById("heading-p3").style .fontSize="100px";
+document.getElementById("heading-p3").style .fontFamily="Playbill";
+
+

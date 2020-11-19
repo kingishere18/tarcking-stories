@@ -4,3 +4,19 @@ i could bacically first go into my html document and take them in the
 of line =(line 24 in pink.css ) after this to give them a 
 little breathing space i would do it like =(line 30 in pink.css)this says that
  if there is any div then give it the following commands that you ENTER.
+
+
+ function rpsGame (yourChoice) {
+  //console.log(yourChoice);
+  var humanChoice , botChoice;
+  humanChoice = yourChoice;
+  botChoice= Math.floor(Math.random()*3);
+  if( humanChoice = botChoice) {
+  var nice = 'you made it to a tie';
+  } else if (humanChoice > botChoice) {
+       nice = 'you WON!!!';
+  }else{
+    nice = 'you lose buddy, I MADE IT!!';
+  }
+  console.log(nice);
+}

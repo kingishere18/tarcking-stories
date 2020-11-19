@@ -60,6 +60,7 @@
   border: 20px solid black;
   text-align: center;
   /* -webkit-text-stroke: 2px wheat; */
+  margin-bottom: 19px;
 }
 
 
@@ -101,4 +102,55 @@
 
 /* css you are on hundred!!!!!!!!!!!!! */
 
+#another-result img:hover {
+  box-shadow: 0px 10px 50px blue;
+}
+
 /* challenge 3 */
+
+.whole-container-of-p3 {
+  text-align: center;
+  border: 20px solid black;
+  width: 97%;
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
+
+#heading-p3 {
+  color: blue;
+  -webkit-text-stroke: 2px wheat;
+  text-shadow:6px 6px 3px black;
+}
+
+.heading-of-p3 {
+  color: wheat;
+  -webkit-text-stroke: 2px black;
+}
+
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  border: 13px solid black;
+  justify-content: space-around;
+  width: 97%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.image-0:hover {
+  box-shadow: 0px 10px 50px red;
+}
+
+
+.image-1:hover {
+  box-shadow: 0px 10px 50px yellow;
+}
+
+
+.image-2:hover {
+  box-shadow: 0px 10px 50px green;
+}
+
+
